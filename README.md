@@ -39,7 +39,7 @@ Testing API
 
 	Create new employee:
 	
-		HTTP method 
+		HTTP method:
 			POST
 			
 		URL:
@@ -103,8 +103,7 @@ Testing API
 		URL:
 			http://localhost:5050/api/employees/{ID}/tracking?type=stop
 			
-			-change {ID} with valid employee ID
-			
+			-change {ID} with valid employee ID			
 			-required query string parameter
 				type				
 			-valid parameter values = start|stop
