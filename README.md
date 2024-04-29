@@ -121,7 +121,7 @@ Testing API
 			-required query string parameters:
 				startTime
 				endTime
-			-data time format is dd-MM-yyyyTHH-mm
+			-datetime format is dd-MM-yyyyTHH-mm
 
 	Working hours for single employee:
 	
@@ -136,5 +136,5 @@ Testing API
 				startTime
 				endTime
 			-change {ID} with valid employee ID
-			-data time format is dd-MM-yyyyTHH-mm
+			-datetime format is dd-MM-yyyyTHH-mm
 
