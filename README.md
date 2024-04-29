@@ -7,13 +7,15 @@ Project is built using:
 
 Before first run:
 
-    In Visual Studio open Tools -> NuGet Package Manager -> Package Manager Console
-    Run command 'update-database'
-    That will update database using migration wich will create database and add initial data
+    Open project in Visual Studio
+    From Visual Studio menu open Tools -> NuGet Package Manager -> Package Manager Console
+    Run command 'update-database' from Package Manager Console
+    Command will update database using migration wich will create database and add initial data. 
+    Start the application.
 
 Testing API
 
-    -web API listening port is: 5050
+    After running project from Visual Studio, web API will listen on port 5050
 
 1) Managing employees
 
