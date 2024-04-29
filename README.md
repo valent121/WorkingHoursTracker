@@ -110,7 +110,7 @@ Testing API
 
 3) Geting reports
 
-	For all employees:
+	Working hours for all employees:
 
 		HTTP method:
 			GET
@@ -118,13 +118,12 @@ Testing API
 		URL:
 			http://localhost:5050/api/employees/reports?startTime=10-01-2024T00-00&endTime=10-01-2025T00-00
 			
-			-working hours for all employees
 			-required query string parameters:
 				startTime
 				endTime
 			-data time format is dd-MM-yyyyTHH-mm
 
-	For single employee:
+	Working hours for single employee:
 	
 		HTTP method:
 			GET
@@ -132,7 +131,6 @@ Testing API
 		URL:
 			http://localhost:5050/api/employees/reports?employeeId={ID}&startTime=10-01-2024T00-00&endTime=10-01-2025T00-00
 			
-			-working hours for single employees
 			-required query string parameters:
 				employeeId
 				startTime
