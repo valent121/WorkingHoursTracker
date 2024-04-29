@@ -10,8 +10,7 @@ Before first run:
     Open project in Visual Studio
     From Visual Studio menu open Tools -> NuGet Package Manager -> Package Manager Console
     Run command 'update-database' from Package Manager Console
-    Command will update database using migration wich will create database and add initial data. 
-    Start the application.
+    Command will update database using migration wich will create database and add initial data. App is ready for first run.
 
 Testing API
 
